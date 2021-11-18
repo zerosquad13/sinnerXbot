@@ -1,15 +1,13 @@
 {
-      "name": "Ali-Robot",
-      "description": "An Anime themed Telegram group management bot.",
+      "name": "sinnerXbot",
+      "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
-         "anime",
          "group",
          "manager",
-         "pain"
       ],   
-    "logo":    "https://telegra.ph/file/d9ca14cb9d3cc1c430278.jpg",
-   "repository": "https://github.com/Khotmams/Ali-Superbot",
+    "logo":    "https://telegra.ph/file/c226623ff79fa51e5d587.jpg",
+   "repository": "https://github.com/zerosquad13/sinnerXbot",
    "addons": [
       {
          "options": {
