@@ -1,10 +1,12 @@
 {
-      "name": "sinnerXbot",
-      "description": "Telegram group management bot.",
+      "name": "sinner-bot",
+      "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
+         "anime",
          "group",
          "manager",
+         "pain"
       ],   
     "logo":    "https://telegra.ph/file/c226623ff79fa51e5d587.jpg",
    "repository": "https://github.com/zerosquad13/sinnerXbot",
