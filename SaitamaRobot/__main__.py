@@ -59,7 +59,7 @@ Apabila kurang jelas bisa klik Command /help buat fitur-fitur lainnya ya guys!:)
 
 HELP_STRINGS = """
 Halo guys namaku is *{}*.
-Aku berasal dari [CASTLE PATRIARCA](https://t.me/gsahmanja)
+Aku berasal dari [𝗫𝗫𝗫❰🜏❱𝗦𝗤𝗨𝝠𝗗](https://t.me/xxxsquad18plus)
 Lihat di bawah ini untuk mendapatkan ide tentang beberapa hal yang dapat saya bantu.
 
 *Fitur* Perintah yang Tersedia:
@@ -77,12 +77,12 @@ Dan berikut ini:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nSemua perintah dapat digunakan dengan / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/a578f0c4bfab27127c188.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/c226623ff79fa51e5d587.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Private Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Adeeva
-There are two ways of supporting him; [EJEN-ALI](https://t.me/Mastralii), or [Izzy](https://t.me/kang_keong17)."""
+There are two ways of supporting him; [SINNER](https://t.me/lifeinsinn), or [CROW](https://t.me/deadcrow)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -200,22 +200,22 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="➕ Add SuperBot To Your Group!",
+                            text="💥 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 💥",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                      ],
                      [
                          InlineKeyboardButton(
-                             text="⚛️ Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             text="💥 𝐆𝐑𝐎𝐔𝐏 𝟏 💥",
+                             url=f"https://t.me/xxxsquad18plus"),
                          InlineKeyboardButton(
-                             text="🔔Channel",
-                             url="https://t.me/patriarcach")
+                             text="💥 𝐆𝐑𝐎𝐔𝐏 𝟐 💥",
+                             url="https://t.me/badgurls18plus")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="👨🏻‍💻OWNER",
-                             url="https://t.me/mastralii")
+                             text="💥 𝐎𝐖𝐍𝐄𝐑 💥",
+                             url="https://t.me/lifeinsinn")
                      ]]))
     else:
         update.effective_message.reply_text(
